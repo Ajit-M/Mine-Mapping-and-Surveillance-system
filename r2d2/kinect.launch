@@ -1,0 +1,6 @@
+
+<launch>
+
+<node pkg="tf" type="static_transform_publisher" name="base_to_kinect_broadcaster" args="0.1 0 0.4 0 0 0 base_link camera_link 100" />
+
+</launch>

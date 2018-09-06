@@ -1,0 +1,4 @@
+float32 distance_LF
+float32 distance_LR
+float32 distance_RF
+float32 distance_RR

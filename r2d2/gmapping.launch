@@ -1,0 +1,4 @@
+<launch>
+  <param name="use_sim_time" value="true" />
+  <node pkg="gmapping" type="slam_gmapping" name="SLAM" args="scan:=scan" output="screen" />
+</launch>
